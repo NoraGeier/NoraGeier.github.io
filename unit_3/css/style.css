@@ -1,0 +1,16 @@
+body{
+
+     background-image: url("images/cloud.jpg");
+
+	font-family: helvetica;
+}
+
+h3, h1{
+	color: #031157;
+}
+
+.author{
+	font-weight: bold;
+	font-size: 12px;
+}
+
