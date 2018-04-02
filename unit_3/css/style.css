@@ -1,3 +1,10 @@
+
+/*Pacifo: headline
+Nunito: sub headline*/
+/*font-family: 'Nunito', sans-serif;
+font-family: 'Pacifico', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Nunito|Pacifico');
+
 body{
 
      background-image: url("images/cloud.jpg");
@@ -6,7 +13,12 @@ body{
 }
 
 h3, h1{
+	font-family: 'Pacifico', cursive;
 	color: #031157;
+}
+
+#sub header{
+	font-family: 'Nunito', sans-serif;
 }
 
 .author{
