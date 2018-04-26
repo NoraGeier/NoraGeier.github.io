@@ -1,0 +1,152 @@
+
+/*Pacifo: headline
+Nunito: sub headline*/
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Pacifico', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Raleway|Work+Sans:200,400');
+
+body{
+	font-size: 16px;
+}
+
+#wrapper{
+
+     background-image: url("images/cloud.jpg");
+
+	font-family: helvetica;
+	margin: 3%;
+}
+
+header{
+	background-color:#FFED74;
+	border: 1px black solid;
+	padding-bottom: 5% black solid;
+
+}
+
+
+h1{
+	font-family: 'Pacifico', cursive;
+	color: #031157;
+	font-size: 2.5em;
+	line-height: 0.5em;
+}
+
+h2{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.125em;
+	color:#031157 ;
+	border-bottom: 2px black solid;
+
+}
+
+h3{
+	font-family: 'Pacifico', cursive;
+	color: #031157;
+	font-size: 1.125em;
+}
+
+
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 5%;
+	color: black;
+}
+
+.author{
+	font-weight: bold;
+	font-size: 0.75em;
+	color: #031157;
+
+}
+
+
+.Poem{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1.125em;
+	color: white;
+	line-height: 1.5em;
+	font-weight: 200;
+}
+
+#Poem1{
+	background-color:  #FFC675;
+	border: 1px black solid;
+	padding: 5%;
+}
+
+
+#two_column{
+	border: 1px black solid;
+	padding:2%;
+	background-color: #FFC675;
+
+}
+
+#Poem2_left{
+	background-color:  #E89C6C;
+	outline: 1px black solid;
+	padding: 2%;
+	float:left;
+	width:42%
+
+}
+
+#Poem3_right{
+	background-color:  #E89C6C;
+	outline: 1px black solid;
+	padding: 2%;
+	float:right;
+	width:42%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+}
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 5%;
+}
+
+
+a{
+	font-family: 'Pacifico', cursive;
+}
+
+
+#wrapper{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 5%;
+}
+
+@media only screen and (max-width: 943px) {
+	h1{
+		font-size: 2em;
+	}
+	h2{
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 764px) {
+	h1{
+		font-size: 1.5em;
+		text-align: center;
+	}
+	h2{
+		font-size: 1em;
+		text-align: center;
+	}
+}
